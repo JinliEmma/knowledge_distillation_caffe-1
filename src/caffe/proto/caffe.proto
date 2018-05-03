@@ -420,6 +420,11 @@ message LayerParameter {
   optional ThresholdParameter threshold_param = 128;
   optional TileParameter tile_param = 138;
   optional WindowDataParameter window_data_param = 129;
+  optional KnowledgeDistillationParameter knowledge_distillation_param = 150;
+}
+
+message KnowledgeDistillationParameter {
+  optional float temperature = 1 [default = 1];
 }
 
 // Message that stores parameters used to apply transformation
