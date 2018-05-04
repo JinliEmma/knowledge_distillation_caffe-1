@@ -12,7 +12,7 @@ Hinton, G. Vinyals, O. and Dean, J. Distilling knowledge in a neural network. 20
 2. Clone this repository in your directory `ROOT`<br>
 ```bash
 cd $ROOT
-git clone https://github.com/wentianli/knowledge_distillation_caffe.git
+git clone https://github.com/jac578/knowledge_distillation_caffe.git
 ```
 3. Move files to your Caffe folder<br>
 ```bash
